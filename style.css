@@ -1,0 +1,803 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: white;
+}
+
+p {
+  padding: none;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #c8c8c8;
+}
+
+li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #67a3e0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+dt {
+  padding: 5px;
+  color: #929294;
+}
+
+hr {
+  color: #e2e2e2;
+}
+
+@media screen and 
+  (max-width: 600px) {
+    
+}
+
+.container{
+  width:95%;
+  flex-direction:column;
+}
+
+/* homepage style */
+.logo {
+  display: inline;
+}
+
+.limited {
+  width: 100%;
+  height: 50px;
+  padding-top: 0.1px;
+  background-color: #f5f5f7;
+}
+
+.ghostw {
+  background-color: #fbfbfd;
+}
+
+.black {
+  background-color: black;
+}
+
+.bfont {
+  color: white;
+}
+
+.bblue {
+  color: #0071e3;
+}
+
+.onebox {
+  height: 510px;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.twobox {
+  float: left;
+  height: 450px;
+  width: 50%;
+}
+
+.threebox {
+  float: left;
+  width: 33.333%;
+}
+.compbox {float:left; width:20%;}
+
+.atv {
+  background-image: url("https://cdn.glitch.com/c28b59cc-0ce3-4cd1-993b-60e7f07f8c6d%2F83b5ab21-d376-43d1-bd01-4be7a99c8cd4_tile__cauwwcyyn9hy_xlarge.jpg?v=1612889859654");
+}
+
+.atvapple {
+  padding-top: 300px;
+  padding-left: 50px;
+  width: 2.2%;
+}
+
+.lisize {
+  font-size: 13px;
+}
+
+.banner {
+  color: #828284;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.apple1 {
+  padding-bottom: 0.2px;
+  padding-left: 685px;
+  padding-top: 40px;
+  width: 4%;
+}
+
+.himg1 {
+  padding-left: 200px;
+}
+
+.himg2 {
+  padding-left: 455px;
+}
+
+.himg3 {
+  padding-left: 400px;
+}
+
+.himg4 {
+  padding-left: 266px;
+}
+
+.sapple {
+  padding-right: 2px;
+  width: 2.2%;
+}
+
+.himg5 {
+  padding-left: 260px;
+}
+
+.himg6 {
+  padding-left: 140px;
+}
+
+.himg7 {
+  padding-left: 215px;
+}
+
+.iphone12 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0.2px;
+}
+
+.pro12 {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.airpods {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.wli {
+  color: white;
+}
+
+/* footer style */
+
+.footerbox {
+  width: 65%;
+  float: center;
+  padding-left: 250px;
+}
+.footercredsbox {
+  width: 65%;
+  float: center;
+}
+
+.footer {
+  background-color: #f5f5f7;
+  color: #b6b5b7;
+  font-size: 12px;
+  width: 100%;
+  height: 470px;
+}
+
+.cfooter {
+  background-color: #f5f5f7;
+  color: #b6b5b7;
+  font-size: 12px;
+  width: 100%;
+  height: 100px;
+}
+
+.footercred {
+  background-color: #f5f5f7;
+  color: #b6b5b7;
+  font-size: 12px;
+  width: 100%;
+  height: 100px;
+}
+
+.credbox {
+  float: left;
+  width: 30%;
+}
+
+.credboxli {
+  float: left;
+  width: 45%;
+}
+
+.credboxsg {
+  float: left;
+  width: 10%;
+}
+
+.fdl {
+  float: left;
+}
+
+.fdt12345 {
+  padding-left: 64px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.fli {
+  color: #8a8a8d;
+}
+
+.ftitle {
+  color: #4d4d4d;
+}
+
+/* 404page style */
+.title404 {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.search {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+input {
+  width: 56%;
+  height: 45px;
+}
+
+.bar {
+  padding-left: 414px;
+}
+
+.li404 {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 120px;
+}
+
+/* supportpage style */
+
+.bannerbox {
+  width: 100%;
+  height: 500px;
+}
+
+.sbanner {
+  background-image: url(https://cdn.glitch.com/c28b59cc-0ce3-4cd1-993b-60e7f07f8c6d%2F83b5ab21-d376-43d1-bd01-4be7a99c8cd4_qmyrFO1KxegDC.jpg?v=1612953358445);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 75%;
+}
+
+.sbar {
+  padding-bottom: 250px;
+  padding-top: 20px;
+  padding-left: 430px;
+}
+
+.support {
+  font-size: 40px;
+  color: #333333;
+  text-align: center;
+  padding-top: 95px;
+  margin: 0px;
+}
+
+.input {
+  font-size: 20px;
+}
+
+.icons {
+  padding-top: 70px;
+  padding-left: 80px;
+  width: 85%;
+  margin: 0px;
+}
+
+.sline {
+  margin: 0px;
+}
+
+.slineli a {
+  color: black;
+  font-size: 17px;
+}
+
+.slineli1 {
+  padding-left: 230px;
+}
+
+.slineli2 {
+  padding-left: 138px;
+}
+
+.slineli34 {
+  padding-left: 146px;
+}
+
+.slineli5 {
+  padding-left: 134px;
+}
+
+.slineli6 {
+  padding-left: 150px;
+}
+
+.logos {
+  width: 70%;
+  padding-left: 195px;
+}
+
+.stitle {
+  font-size: 36px;
+  color: #333333;
+  margin: 0px;
+  padding-left: 280px;
+  padding-top: 90px;
+}
+
+.stext {
+  font-size: 20px;
+  color: #333333;
+  padding-left: 280px;
+}
+
+.stextli {
+  font-size: 20px;
+  color: #333333;
+  padding-left: 280px;
+}
+
+.gcimg {
+  width: 45%;
+  padding-left: 30px;
+  padding-top: 70px;
+}
+
+.gsbanner {
+  background-image: url(https://cdn.glitch.com/c28b59cc-0ce3-4cd1-993b-60e7f07f8c6d%2Fhero%20banner.jpg?v=1612960530273);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 450px;
+  margin: 0px;
+}
+
+.gs {
+  font-size: 36px;
+  padding-top: 170px;
+  padding-left: 210px;
+  color: white;
+  margin: 0px;
+}
+
+.gstext {
+  font-size: 20px;
+  padding-left: 210px;
+  color: white;
+  margin: 0px;
+}
+
+.gstextli {
+  font-size: 20px;
+  padding-left: 210px;
+  color: white;
+  margin: 0px;
+}
+
+.acarebox {
+  float: left;
+  height: 320px;
+  width: 50%;
+}
+
+.acare {
+  width: 30%;
+  padding-left: 400px;
+  padding-top: 55px;
+}
+
+.acaretitle {
+  font-size: 36px;
+  padding-top: 50px;
+  color: #333333;
+  margin: 0px;
+}
+
+.acaretext {
+  font-size: 20px;
+  color: #333333;
+  margin: 0px;
+}
+
+.acaretextli {
+  font-size: 20px;
+  color: #333333;
+  margin: 0px;
+}
+
+.warranty {
+  width: 10%;
+  padding-left: 642px;
+  padding-top: ;
+  margin: 10px;
+}
+
+.wtitle {
+  text-align: center;
+  font-size: 38px;
+  color: #333333;
+  margin: 0px;
+}
+
+.wtext {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+}
+
+.beware {
+  text-align: center;
+  font-size: 28px;
+  color: #333333;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+.bewaretext {
+  text-align: center;
+  font-size: 18px;
+  color: #333333;
+}
+
+.scambox {
+  float: left;
+  width: 40%;
+}
+
+.scambox2 {
+  float: left;
+  width: 60%;
+}
+
+.scam {
+  width: 50%;
+  padding-left: 300px;
+  padding-top: 80px;
+}
+
+.scamtitle {
+  font-size: 32px;
+  color: #333333;
+  padding-left: 80px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+.scamli {
+  font-size: 18px;
+  padding-left: 80px;
+  margin: 0px;
+}
+
+.aservice {
+  font-size: 28px;
+  color: #333333;
+  padding-left: 300px;
+  padding-top: 40px;
+}
+
+.serviceli {
+  font-size: 18px;
+  padding-left: 300px;
+  margin: 0px;
+}
+
+/*macpage style*/
+.mbanner {
+  background-color: #141414;
+  color: white;
+}
+.mnew {
+  color: #dc5a02;
+  margin-top: 0px;
+  padding-left: 35px;
+}
+
+.mimg1 {
+  width: 68%;
+  padding-left: 224px;
+  padding-top: 15px;
+}
+
+.mbannerf {
+  font-size: 12px;
+  color: white;
+}
+
+.mli1 {
+  padding-left: 200px;
+  padding-bottom: 0.1px;
+  margin-bottom: 0px;
+}
+
+.mli24 {
+  padding-left: 1px;
+}
+
+.mli4 {
+  padding-left: 5px;
+}
+
+.mli5 {
+  padding-left: 6px;
+}
+
+.mli67 {
+  padding-left: 0px;
+}
+
+.mli8 {
+  padding-left: 2px;
+}
+
+.mli9 {
+  padding-left: 0px;
+}
+
+.mli1011 {
+  padding-left: 0px;
+
+  padding-bottom: 30px;
+}
+
+.mnew1 {
+  color: #dc5a02;
+  font-size: 10px;
+  padding-top: 0.1px;
+  padding-left: 34px;
+}
+
+.mnew2 {
+  color: #dc5a02;
+  font-size: 10px;
+  padding-top: 0.1px;
+  padding-left: 45px;
+}
+
+.mnew3 {
+  color: #dc5a02;
+  font-size: 10px;
+  padding-top: 0.1px;
+  padding-left: 25px;
+}
+
+.mbannerli a:hover {
+  color: #3d6ba0;
+  text-decoration: none;
+}
+
+.m1logo {
+  padding-left: 665px;
+  width: 8%;
+  padding-top: 100px;
+}
+
+.wlcm {
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  background: radial-gradient(ellipse at center, #eff1ff 10%, #000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mtitle {
+  font-size: 50px;
+  margin: 0px;
+}
+
+.newtitle1 {
+  color: #f56300;
+  font-size: 23px;
+  margin: 2px;
+  padding-top: 70px;
+}
+
+.txtitle1 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.price1 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+button {
+  border-color: #0071e3;
+  background-color: #0071e3;
+  color: white;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 22px;
+  font-size: 17px;
+  width: 18%;
+  height: 20%;
+}
+
+.imgbox1 {
+  width: 65%;
+  float: left;
+}
+
+.txtbox1 {
+  width: 35%;
+  float: left;
+  padding-bottom: 52.5px;
+}
+
+.imgbox2 {
+  width: 60%;
+  float: left;
+}
+
+.txtbox3 {
+  width: 40%;
+  float: left;
+  padding-bottom: 52.5px;
+}
+
+.txtitle2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.macbox {
+  background-color: #f2f2f2;
+  height: 950px;
+  margin: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  white-space: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.compare {
+  font-size: 55px;
+  color: #1d1d1f;
+  text-align: center;
+}
+
+.macli {
+  text-align: center;
+  font-size: 20px;
+}
+
+.macimg {
+  width: 70%;
+  padding-left: 190px;
+}
+
+.wishbox {
+  background-color: #f2f2f2;
+  height: 650px;
+  margin: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  white-space: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.wishing {
+  width: 90%;
+  padding-left: 70px;
+}
+
+.ox {
+  font-size: 45px;
+  color: #1d1d1f;
+  text-align: center;
+  margin: 0px;
+  padding-top: 70px;
+}
+
+.oxli {
+  text-align: center;
+  font-size: 20px;
+}
+
+.air {
+  font-size: 15px;
+  position: relative;
+  width: 300px;
+  left: 16%;
+  top: 10%;
+}
+
+.srain {
+  text-align:center;
+  background-image: url(https://cdn.glitch.com/c28b59cc-0ce3-4cd1-993b-60e7f07f8c6d%2F83b5ab21-d376-43d1-bd01-4be7a99c8cd4_ErtPVb3vucbiB.jpg?v=16129719686145);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 580px;
+}
+
+.iconli {
+  float:left;
+  width:7.15%;
+}
+
+.iconli2 {
+  float:left;
+  width:10%;
+}
+
+.more {
+  font-size: 55px;
+  text-align: center;
+}
+
+.bundle {
+  font-size: 35px;
+  text-align: center;
+}
